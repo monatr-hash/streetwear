@@ -9,17 +9,15 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 export default function Hero() {
   return (
     <section className="relative flex h-[92vh] min-h-[560px] w-full items-end overflow-hidden bg-zinc-950">
-      <Image
-        // Replace with real macro product photography for the actual site.
-        src="https://picsum.photos/seed/cinder-hero/1920/2400"
-        alt="CINDER Drop 01 campaign image"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-center opacity-90 grayscale"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/10" />
-
+ <Image
+  src="https://raw.githubusercontent.com/monatr-hash/streetwear/main/public/images/products/coats/Vantablack%20Overshirt.png"
+  alt="CINDER Drop 01 campaign image"
+  fill
+  priority
+  className="object-cover"
+/>
+<div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-zinc-950/10" />
+     
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 lg:px-8 lg:pb-24">
         <motion.p
           initial={{ opacity: 0, y: 12 }}
